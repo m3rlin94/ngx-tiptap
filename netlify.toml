@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/demo"
+  publish = "dist/demo/browser"
   command = "npm run build && npm run build:pages"
 
 [[redirects]]
