@@ -1,8 +1,8 @@
 [build]
-  publish = "dist/demo/browser"
+  publish = "dist/demo"
   command = "npm run build && npm run build:pages"
 
 [[redirects]]
   from = "/*"
   status = 200
-  to = "/index.html"
+  to = "/browser/index.html"
