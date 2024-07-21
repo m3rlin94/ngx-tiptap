@@ -1,3 +1,7 @@
+[build]
+  publish = "dist/ngx-tiptap/fesm2022"
+  command = "ng build --prod"
+
 [[redirects]]
   from = "/*"
   status = 200
