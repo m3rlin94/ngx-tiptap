@@ -7,19 +7,14 @@ import { SimpleEditorReactiveComponent } from './simple-editor-reactive/simple-e
 // import { NodeviewRendererComponent } from './nodeview-renderer/nodeview-renderer.component';
 
 export const routes: Routes = [
-  // {
-  //   path: '',
-  //   component: SimpleEditorComponent,
-  //   title: 'Simple Editor',
-  // },
   {
-    path: 'editor-reactive',
+    path: '',
     component: SimpleEditorReactiveComponent,
     title: 'Response Editor',
   },
   {
     path: '**',
-    redirectTo: 'editor-reactive',
+    redirectTo: '',
   },
   // {
   //   path: 'floating-menu',
