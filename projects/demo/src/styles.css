@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: Lexend;
+}
+
 .ProseMirror > * + * {
   margin-top: 0.75rem;
 }
@@ -27,4 +31,28 @@
 
 h1 {
   font-size: 1.5rem;
+}
+
+.highlighted-content {
+  color: #ff6060 !important;
+  cursor: pointer;
+}
+
+.highlighted-content.ProseMirror-selectednode {
+  border: 1px solid #ff6060;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.tiptap-editor {
+  border: 1px solid #cfdae6;
+  border-radius: 4px;
+  padding: 16px;
+  height: 300px;
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  outline: none;
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
 }

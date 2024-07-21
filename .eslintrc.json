@@ -30,7 +30,9 @@
             "prefix": "tiptap",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "no-console": "off",
+        "prefer-named-capture-group": "off"
       }
     },
     {
