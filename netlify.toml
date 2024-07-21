@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/demo"
+  publish = "dist/ngx-tiptap"
   command = "npm run build && npm run build:pages"
 
 [[redirects]]
