@@ -1,6 +1,6 @@
 [build]
-  publish = "dist/ngx-tiptap/fesm2022"
-  command = "ng build ngx-tiptap"
+  publish = "dist/demo"
+  command = "npm run build:pages"
 
 [[redirects]]
   from = "/*"
