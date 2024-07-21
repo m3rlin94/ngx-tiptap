@@ -1,6 +1,6 @@
 [build]
   publish = "dist/demo"
-  command = "npm run build:pages"
+  command = "npm run build && npm run build:pages"
 
 [[redirects]]
   from = "/*"
