@@ -14,6 +14,7 @@ const copyFile = async function (srcFilePath, destFilePath) {
   }
 };
 
+copyFile('netlify.toml', 'netlify.toml');
 copyFile('README.md', 'README.md');
 copyFile('LICENSE', 'LICENSE');
 copyFile('CHANGELOG.md', 'CHANGELOG.md');
